@@ -19,6 +19,7 @@ $("button").on("click", function () {
   // }, timeoutInMilliSec);
   if (!didGameStart) {
     $("button").fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100);
+    playSound("start");
     setTimeout(function () {
       nextSequence();
       didGameStart = true;
