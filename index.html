@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simon Game</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title-lvl">Press "Start Game" button</h1>
+    <div class="container">
+      <div class="row">
+        <div type="button" id="green" class="btn green"></div>
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+      <div class="row">
+        <div type="button" id="start">
+          <button id="startBtn">START GAME</button>
+        </div>
+      </div>
+      <div class="row">
+        <div type="yellow" id="yellow" class="btn yellow"></div>
+        <div type="blue" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+    <div class="score" id="score">
+      <h2>score: 0</h2>
+    </div>
+    <footer>Made with ❤️ in 🇩🇪</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./game.js" charset="UTF-8"></script>
+  </body>
+</html>
